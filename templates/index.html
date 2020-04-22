@@ -1,0 +1,15 @@
+{% load staticfiles %}
+
+<html>
+<head>
+	<title>First Application</title>
+	<link rel="stylesheet" type="text/css" href="{% static "css/style.css" %}">
+</head>
+<body>
+
+	<h1>This is a picture</h1>
+	{{ insert_me }}
+	<img src="{% static "images/galerie7.jpg" %}" alt="">
+
+</body>
+</html>
